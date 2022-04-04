@@ -1,9 +1,8 @@
 package io.geekya.ctfp
 package challenge4
 
-// Compose the functions safe_root and safe_reciprocal
-// to implement safe_root_reciprocal that calculates
-// sqrt(1/x) whenever possible.
+// Compose the functions safe_root and safe_reciprocal to implement 
+// safe_root_reciprocal that calculates sqrt(1/x) whenever possible.
 object p3 {
   def safe_root(x: Double): Option[Double] = {
     if (x < 0) None

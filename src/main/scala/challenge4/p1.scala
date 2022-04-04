@@ -1,8 +1,8 @@
 package io.geekya.ctfp
 package challenge4
 
-// Construct the Kleisli category for partial
-// functions (define composition and identity).
+// Construct the Kleisli category for partial functions (define 
+// composition and identity).
 object p1 {
   def id[A](a: A): Option[A] = Some(a)
   
